@@ -1,8 +1,8 @@
 # SST: Single-Stream Temporal Action Proposals
 
-This repo will contain all the Supplementary Material, etc. for the [SST paper](http://vision.stanford.edu/pdf/buch2017cvpr.pdf), which will be presented at the upcoming [CVPR 2017](http://cvpr2017.thecvf.com) conference.
+*Update (7/21): We will be posting material shortly, in time for [Tuesday's poster session](http://cvpr2017.thecvf.com/program/main_conference) where we will be presenting. :)*
 
-Please check back in the coming months closer to the conference for updates. :)
+This repo will contain all the Supplementary Material, etc. for the [SST paper](http://vision.stanford.edu/pdf/buch2017cvpr.pdf), which will be presented at the upcoming [CVPR 2017](http://cvpr2017.thecvf.com) conference.
 
 To cite our [paper](http://vision.stanford.edu/pdf/buch2017cvpr.pdf), please use:
 

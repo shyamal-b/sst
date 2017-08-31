@@ -3,6 +3,7 @@ backports-abc==0.5
 backports.shutil-get-terminal-size==1.0.0
 bleach==2.0.0
 certifi==2017.7.27.1
+chardet==3.0.4
 configparser==3.5.0
 cycler==0.10.0
 decorator==4.1.2
@@ -12,6 +13,7 @@ functools32==3.2.3.post2
 h5py==2.7.0
 hickle==2.1.0
 html5lib==0.999999999
+idna==2.6
 ipykernel==4.6.1
 ipython==5.4.1
 ipython-genutils==0.2.0
@@ -24,7 +26,7 @@ jupyter-console==5.2.0
 jupyter-core==4.3.0
 Lasagne==0.1
 MarkupSafe==1.0
-matplotlib==2.0.0
+matplotlib==2.0.2
 mistune==0.7.4
 nbconvert==5.2.1
 nbformat==4.4.0
@@ -43,16 +45,19 @@ python-dateutil==2.6.1
 pytz==2017.2
 pyzmq==16.0.2
 qtconsole==4.3.1
+requests==2.18.4
 scandir==1.5
 scipy==0.19.1
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
+six==1.10.0
 subprocess32==3.2.7
 terminado==0.6
 testpath==0.3.1
 Theano==0.8.2
 tornado==4.5.1
 traitlets==4.3.2
+urllib3==1.22
 wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.0.2

@@ -66,3 +66,7 @@ target/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints*
+
+# Extra figures, notebook outputs
+*.pdf
+*.json

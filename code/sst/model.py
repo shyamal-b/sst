@@ -78,15 +78,16 @@ class SSTSequenceEncoder(object):
         l_gru = l_input # needed for for-loop below
         dropout_enabled = self.dropout > 0
         # recurrent layers
-        for _ in range(depth):
+        for _ in range(self.depth):
             l_gru = lasagne.layers.GRULayer(
-                l_gru, width, grad_clipping=self.grad_clip)
+                l_gru, self.width, grad_clipping=self.grad_clip)
             if dropout_enabled: # add dropout!
                 l_gru = lasagne.layers.DropoutLayer(l_gru, p=self.dropout)
         # reshape -> dense layer (sigmoid) -> reshape back for outputs.
-        l_reshape = lasagne.layers.ReshapeLayer(l_gru, (-1, width))
+        l_reshape = lasagne.layers.ReshapeLayer(l_gru, (-1, self.width))
         nonlin_out = lasagne.nonlinearities.sigmoid
-        l_dense = lasagne.layers.DenseLayer(l_reshape, num_units=num_proposals,
+        l_dense = lasagne.layers.DenseLayer(l_reshape,
+                num_units=self.num_proposals,
                 nonlinearity=nonlin_out)
         final_output_shape = (batchsize, seqlen, num_proposals)
         l_out = lasagne.layers.ReshapeLayer(l_dense, final_output_shape)

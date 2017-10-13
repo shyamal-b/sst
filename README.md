@@ -21,6 +21,8 @@ Quick links:
 [[code](https://github.com/shyamal-b/sst/)]
 <!-- [[video](https://drive.google.com/file/d/0B_-dKvCH2VL7dGV1ankxWnJVQmM/view?usp=sharing)] -->
 
+**Update:** if you find this work useful, you may *also* find our newer work of interest:  [link to SS-TAD](https://github.com/shyamal-b/ss-tad/)
+
 Please use the following bibtex to cite our work:
 
     @inproceedings{sst_buch_cvpr17,
@@ -29,8 +31,6 @@ Please use the following bibtex to cite our work:
       year = {2017},
       booktitle = {CVPR}
       }
-
-<!-- Also, if you find this work useful, you may *also* find our newer work of interest:  [link to SS-TAD](https://github.com/shyamal-b/ss-tad/)-->
 
 As part of this repo, we also include *evaluation notebooks*, *SST proposals* for THUMOS'14, and *pre-trained model parameters*. Please see the `code/` and `data/` folders for more.
 

@@ -33,7 +33,7 @@ def get_segments(y, delta=16):
     L, K = y.shape
     for i in range(L):
         for j in range(min(i+1, K)):
-            temp_props.append([stride*(i-j-1), stride*i])
+            temp_props.append([delta*(i-j-1), delta*i])
             temp_scores.append(y[i, j])
     props_arr, score_arr = np.array(temp_props), np.array(temp_scores)
     # filter out proposals that extend beyond the start of the video.
